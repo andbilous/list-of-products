@@ -35,6 +35,7 @@ html {
             background: #334247;
             box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
             overflow: hidden;
+            position: relative;
             &:nth-of-type(1) {
                 button,
                 .price {
@@ -57,9 +58,11 @@ html {
                 }
             }
             &__header{
-                margin: 36px 102px 33px 102px;
+                padding: 36px 102px 33px 102px;
                 text-align: center;
                 height: 130px;
+                display: flex;
+                flex-direction: column;
             }
             &__title{
                 margin: 0;
@@ -73,77 +76,56 @@ html {
                 line-height: 24px;
                 margin: 0;
             }
-            .price{
-                &__value{
 
-                }
-            }
-            .header {
-                position: relative;
-                .popular {
-                    width: 122px;
-                    height: 123px;
-                    position: absolute;
-                    right: -5px;
-                    top: 0px;
-                    &__text {
-                        display: block;
-                        width: 147px;
-                        height: 25px;
-                        font-weight: 700;
-                        font-size: 14px;
-                        line-height: 25px;
-                        text-align: center;
-                        text-transform: uppercase;
-                        color: #fff;
-                        background-color: #DC3F45;
-                        transform: rotate(45deg);
-                    }
-                }
-                .titles {
-                   
-                    text-align: center;
-                    &__main {
-                        
-                    }
-                    &__sub {
-                        
-                    }
-                }
-            }
-            .price-сard {
-                background-color: #5BB189;
-                width: 380px;
-                height: 104px;
-                &__value {
-                    margin: 0;
-                    height: 104px;
-                    line-height: 104px;
+            &__badge{
+                height:  25px;
+                width: 147px;
+                background: #DC3F45;
+                transform: rotate(45deg);
+                position: absolute;
+                right: -40px;
+                top: 40px;
+                text-align: center;
+                overflow: hidden;
+                span{
                     font-weight: 700;
-                    font-size: 55px;
-                    text-align: center;
-                    &:after {
-                        content: '\20AC'
-                    }
+                    font-size: 14px;
+                    line-height: 25px;
                 }
             }
-            .description {
+            .price{
+                height: 105px;
+                background: #5BB189;
+                    &__value {
+                        margin: 0;
+                        height: 104px;
+                        line-height: 104px;
+                        font-weight: 700;
+                        font-size: 55px;
+                        text-align: center;
+                        &:after {
+                            content: '\20AC'
+                        }
+          
+                }
+            }
+            &__description {
                 margin: 39px 26px 42px 26px;
                 font-weight: 300;
                 font-size: 15px;
                 line-height: 18px;
                 text-align: center;
             }
-            .list {
+            
+            &__options-list {
                 padding: 0;
                 height: 300px;
-                &__item {
+                li {
                     font-weight: 300;
                     height: 50px;
                     line-height: 50px;
                     &:nth-of-type(2n-1) {
                         background: rgba(42, 52, 56, 0.5);
-                        mix-blend-mode: normal;
                     }
                     span {
                         margin: 0;
@@ -157,8 +139,11 @@ html {
                     }
                 }
             }
-            &__order {
+            &__order-btn {
                 margin: 40px 114px 40px 112px;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
             }
         }
     }

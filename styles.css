@@ -38,6 +38,7 @@ html .container .price-card {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
+  position: relative;
 }
 html .container .price-card:nth-of-type(1) button,
 html .container .price-card:nth-of-type(1) .price {
@@ -56,9 +57,11 @@ html .container .price-card:nth-of-type(3) .price {
   background: #EC632A;
 }
 html .container .price-card__header {
-  margin: 36px 102px 33px 102px;
+  padding: 36px 102px 33px 102px;
   text-align: center;
   height: 130px;
+  display: flex;
+  flex-direction: column;
 }
 html .container .price-card__title {
   margin: 0;
@@ -72,38 +75,27 @@ html .container .price-card__subtitle {
   line-height: 24px;
   margin: 0;
 }
-html .container .price-card .header {
-  position: relative;
-}
-html .container .price-card .header .popular {
-  width: 122px;
-  height: 123px;
-  position: absolute;
-  right: -5px;
-  top: 0px;
-}
-html .container .price-card .header .popular__text {
-  display: block;
-  width: 147px;
+html .container .price-card__badge {
   height: 25px;
+  width: 147px;
+  background: #DC3F45;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -40px;
+  top: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+html .container .price-card__badge span {
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #DC3F45;
-  transform: rotate(45deg);
 }
-html .container .price-card .header .titles {
-  text-align: center;
+html .container .price-card .price {
+  height: 105px;
+  background: #5BB189;
 }
-html .container .price-card .price-сard {
-  background-color: #5BB189;
-  width: 380px;
-  height: 104px;
-}
-html .container .price-card .price-сard__value {
+html .container .price-card .price__value {
   margin: 0;
   height: 104px;
   line-height: 104px;
@@ -111,41 +103,43 @@ html .container .price-card .price-сard__value {
   font-size: 55px;
   text-align: center;
 }
-html .container .price-card .price-сard__value:after {
+html .container .price-card .price__value:after {
   content: "€";
 }
-html .container .price-card .description {
+html .container .price-card__description {
   margin: 39px 26px 42px 26px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
 }
-html .container .price-card .list {
+html .container .price-card__options-list {
   padding: 0;
   height: 300px;
 }
-html .container .price-card .list__item {
+html .container .price-card__options-list li {
   font-weight: 300;
   height: 50px;
   line-height: 50px;
 }
-html .container .price-card .list__item:nth-of-type(2n-1) {
+html .container .price-card__options-list li:nth-of-type(2n-1) {
   background: rgba(42, 52, 56, 0.5);
-  mix-blend-mode: normal;
 }
-html .container .price-card .list__item span {
+html .container .price-card__options-list li span {
   margin: 0;
   margin-left: 22px;
   line-height: 18px;
   font-size: 15px;
 }
-html .container .price-card .list__item img {
+html .container .price-card__options-list li img {
   margin: 0;
   margin-left: 22px;
 }
-html .container .price-card__order {
+html .container .price-card__order-btn {
   margin: 40px 114px 40px 112px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
