@@ -30,6 +30,7 @@ html .container {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-width: 1200px;
 }
 html .container .price-card {
   margin: 0;
@@ -87,6 +88,7 @@ html .container .price-card__badge {
   overflow: hidden;
 }
 html .container .price-card__badge span {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;

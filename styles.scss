@@ -28,6 +28,7 @@ html {
         justify-content: center;
         align-items: center;
         height: 100vh;
+        min-width: 1200px;
         .price-card {
             margin: 0;
             width: 380px;
@@ -88,6 +89,7 @@ html {
                 text-align: center;
                 overflow: hidden;
                 span{
+                    text-transform: uppercase;
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 25px;
