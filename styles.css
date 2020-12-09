@@ -31,7 +31,7 @@ html .container {
   align-items: center;
   height: 100vh;
 }
-html .container .card {
+html .container .price-card {
   margin: 0;
   width: 380px;
   height: 770px;
@@ -39,33 +39,50 @@ html .container .card {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   overflow: hidden;
 }
-html .container .card:nth-of-type(1) button,
-html .container .card:nth-of-type(1) .price {
+html .container .price-card:nth-of-type(1) button,
+html .container .price-card:nth-of-type(1) .price {
   background: #5BB189;
 }
-html .container .card:nth-of-type(2) {
+html .container .price-card:nth-of-type(2) {
   margin-left: 15px;
   margin-right: 15px;
 }
-html .container .card:nth-of-type(2) button,
-html .container .card:nth-of-type(2) .price {
+html .container .price-card:nth-of-type(2) button,
+html .container .price-card:nth-of-type(2) .price {
   background: #3A6BA5;
 }
-html .container .card:nth-of-type(3) button,
-html .container .card:nth-of-type(3) .price {
+html .container .price-card:nth-of-type(3) button,
+html .container .price-card:nth-of-type(3) .price {
   background: #EC632A;
 }
-html .container .card .header {
+html .container .price-card__header {
+  margin: 36px 102px 33px 102px;
+  text-align: center;
+  height: 130px;
+}
+html .container .price-card__title {
+  margin: 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+html .container .price-card__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+html .container .price-card .header {
   position: relative;
 }
-html .container .card .header .popular {
+html .container .price-card .header .popular {
   width: 122px;
   height: 123px;
   position: absolute;
   right: -5px;
   top: 0px;
 }
-html .container .card .header .popular__text {
+html .container .price-card .header .popular__text {
   display: block;
   width: 147px;
   height: 25px;
@@ -78,29 +95,15 @@ html .container .card .header .popular__text {
   background-color: #DC3F45;
   transform: rotate(45deg);
 }
-html .container .card .header .titles {
-  margin: 36px 102px 33px 102px;
+html .container .price-card .header .titles {
   text-align: center;
 }
-html .container .card .header .titles__main {
-  font-size: 35px;
-  line-height: 43px;
-  font-weight: 700;
-  margin: 0;
-}
-html .container .card .header .titles__sub {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 0;
-  margin-bottom: 36px;
-}
-html .container .card .price {
+html .container .price-card .price-сard {
   background-color: #5BB189;
   width: 380px;
   height: 104px;
 }
-html .container .card .price__value {
+html .container .price-card .price-сard__value {
   margin: 0;
   height: 104px;
   line-height: 104px;
@@ -108,40 +111,40 @@ html .container .card .price__value {
   font-size: 55px;
   text-align: center;
 }
-html .container .card .price__value:after {
+html .container .price-card .price-сard__value:after {
   content: "€";
 }
-html .container .card .description {
+html .container .price-card .description {
   margin: 39px 26px 42px 26px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
 }
-html .container .card .list {
+html .container .price-card .list {
   padding: 0;
   height: 300px;
 }
-html .container .card .list__item {
+html .container .price-card .list__item {
   font-weight: 300;
   height: 50px;
   line-height: 50px;
 }
-html .container .card .list__item:nth-of-type(2n-1) {
+html .container .price-card .list__item:nth-of-type(2n-1) {
   background: rgba(42, 52, 56, 0.5);
   mix-blend-mode: normal;
 }
-html .container .card .list__item span {
+html .container .price-card .list__item span {
   margin: 0;
   margin-left: 22px;
   line-height: 18px;
   font-size: 15px;
 }
-html .container .card .list__item img {
+html .container .price-card .list__item img {
   margin: 0;
   margin-left: 22px;
 }
-html .container .card__order {
+html .container .price-card__order {
   margin: 40px 114px 40px 112px;
 }
 

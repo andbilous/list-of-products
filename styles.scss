@@ -28,7 +28,7 @@ html {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        .card {
+        .price-card {
             margin: 0;
             width: 380px;
             height: 770px;
@@ -56,6 +56,28 @@ html {
                     background: #EC632A;
                 }
             }
+            &__header{
+                margin: 36px 102px 33px 102px;
+                text-align: center;
+                height: 130px;
+            }
+            &__title{
+                margin: 0;
+                font-size: 35px;
+                line-height: 43px;
+                font-weight: 700;
+            }
+            &__subtitle{
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                margin: 0;
+            }
+            .price{
+                &__value{
+
+                }
+            }
             .header {
                 position: relative;
                 .popular {
@@ -79,24 +101,17 @@ html {
                     }
                 }
                 .titles {
-                    margin: 36px 102px 33px 102px;
+                   
                     text-align: center;
                     &__main {
-                        font-size: 35px;
-                        line-height: 43px;
-                        font-weight: 700;
-                        margin: 0;
+                        
                     }
                     &__sub {
-                        font-weight: 300;
-                        font-size: 20px;
-                        line-height: 24px;
-                        margin-top: 0;
-                        margin-bottom: 36px;
+                        
                     }
                 }
             }
-            .price {
+            .price-сard {
                 background-color: #5BB189;
                 width: 380px;
                 height: 104px;
