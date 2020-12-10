@@ -1,13 +1,13 @@
-@import 'variables.scss';
-@import 'common.scss';
-@import 'badge.scss';
-@import 'description.scss';
-@import 'header.scss';
-@import 'options-list.scss';
-@import 'price.scss';
-@import 'order-btn.scss';
+@import "variables.scss";
+@import "common.scss";
+@import "badge.scss";
+@import "description.scss";
+@import "header.scss";
+@import "options-list.scss";
+@import "price.scss";
+@import "order-btn.scss";
 
-.price-card{
+.price-card {
     margin: 0;
     width: 380px;
     height: 770px;
@@ -20,7 +20,6 @@
         .price {
             background: $color-green;
         }
-      
     }
     &:nth-of-type(2) {
         button,

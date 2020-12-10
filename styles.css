@@ -36,7 +36,7 @@ button {
 .price-card__badge {
   height: 25px;
   width: 147px;
-  background: #DC3F45;
+  background: #dc3f45;
   transform: rotate(45deg);
   position: absolute;
   right: -40px;
@@ -135,7 +135,7 @@ button {
 }
 .price-card:nth-of-type(1) button,
 .price-card:nth-of-type(1) .price {
-  background: #5BB189;
+  background: #5bb189;
 }
 .price-card:nth-of-type(2) {
   margin-left: 15px;
@@ -143,11 +143,11 @@ button {
 }
 .price-card:nth-of-type(2) button,
 .price-card:nth-of-type(2) .price {
-  background: #3A6BA5;
+  background: #3a6ba5;
 }
 .price-card:nth-of-type(3) button,
 .price-card:nth-of-type(3) .price {
-  background: #DC3F45;
+  background: #dc3f45;
 }
 
 * {
@@ -156,7 +156,7 @@ button {
 
 html {
   font-family: "Montserrat", sans-serif;
-  background: #141B1C;
+  background: #141b1c;
   color: #fff;
 }
 
