@@ -1,0 +1,25 @@
+@import 'variables.scss';
+.price-card{
+    &__options-list {
+        padding: 0;
+        height: 300px;
+        li {
+            font-weight: 300;
+            height: 50px;
+            line-height: 50px;
+            &:nth-of-type(2n-1) {
+                background: $list-dark;
+            }
+            span {
+                margin: 0;
+                margin-left: 22px;
+                line-height: 18px;
+                font-size: 15px;
+            }
+            img {
+                margin: 0;
+                margin-left: 22px;
+            }
+        }
+    }
+}

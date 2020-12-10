@@ -1,0 +1,23 @@
+@import 'variables.scss';
+@import 'common.scss';
+@import 'price-card.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: $font;
+    background: $bg-color;
+    color: $text-color-white;
+}
+
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        min-width: 1200px;
+}
+
+

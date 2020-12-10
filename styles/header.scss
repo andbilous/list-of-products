@@ -1,0 +1,21 @@
+.price-card{
+    &__header{
+        padding: 36px 102px 33px 102px;
+        text-align: center;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title{
+        margin: 0;
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 700;
+    }
+    &__subtitle{
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+    }
+}
