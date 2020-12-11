@@ -8,31 +8,31 @@
 @import "order-btn.scss";
 
 .price-card {
-    margin: 0;
-    width: 380px;
-    height: 770px;
-    background: $card-bg-color;
-    box-shadow: $box-shadow;
-    overflow: hidden;
-    position: relative;
-    &:nth-of-type(1) {
-        button,
-        .price {
-            background: $color-green;
-        }
+  margin: 0;
+  width: 380px;
+  height: 770px;
+  background: $card-bg-color;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+  position: relative;
+  &:nth-of-type(1) {
+    button,
+    .price {
+      background: $color-green;
     }
-    &:nth-of-type(2) {
-        button,
-        .price {
-            background: $color-blue;
-        }
-        margin-left: 15px;
-        margin-right: 15px;
+  }
+  &:nth-of-type(2) {
+    button,
+    .price {
+      background: $color-blue;
     }
-    &:nth-of-type(3) {
-        button,
-        .price {
-            background: $color-red;
-        }
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  &:nth-of-type(3) {
+    button,
+    .price {
+      background: $color-red;
     }
+  }
 }
