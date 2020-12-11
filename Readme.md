@@ -1,8 +1,8 @@
-# Layout Sample Project
+# List Of Products
 
-### [Site link](https://gromcode.github.io/layout-sample-project/)
+### [Site link](https://andbilous.github.io/list-of-products/)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports only desktop version
 
 ### The tech stack is:
 
@@ -14,4 +14,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
 ### Author
 
-- Some Name
+- Andrii Bilous
